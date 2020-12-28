@@ -30,6 +30,7 @@ function draw() {
     }
     hasCollided();
   }
+}
 
 function hasCollided(Lbullet,Lwall){
   bulletRightEdge=lbullet.x +lbullet.width;
@@ -58,4 +59,3 @@ function hasCollided(Lbullet,Lwall){
   
   background(255,255,255);  
   drawSprites();
-}
